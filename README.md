@@ -2,4 +2,6 @@
 
 Format mardown tables.
 
-![](https://rawgithub.com/josa42/vscode-markdown-table-formatter/master/screenshot.gif)
+用于 VSCODE 
+
+此版本自适应中文的格式化
