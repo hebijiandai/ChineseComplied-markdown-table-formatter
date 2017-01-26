@@ -1,0 +1,38 @@
+{
+	"name": "markdown-table-formatter",
+	"displayName": "markdown-table-formatter",
+	"description": "",
+	"version": "0.0.4",
+	"publisher": "josa",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:markdown"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": []
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"dependencies": {
+		"reformat-markdown-table": "^1.1.0",
+		"wcwidth": "^1.0.1"
+	},
+	"devDependencies": {
+		"typescript": "^1.8.5",
+		"vscode": "^0.11.0"
+	},
+	"__metadata": {
+		"id": "43d43546-4d3d-4557-93ef-aa605f16e8b9",
+		"publisherId": "5132c308-fefa-4e33-a2c2-c315000f9f0c",
+		"publisherDisplayName": "Josa"
+	}
+}
